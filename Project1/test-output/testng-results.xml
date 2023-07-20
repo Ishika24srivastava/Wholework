@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="18" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-12T16:12:07 IST" name="Default suite" finished-at="2023-05-12T16:12:31 IST" duration-ms="23851">
+    <groups>
+    </groups>
+    <test started-at="2023-05-12T16:12:07 IST" name="Default test" finished-at="2023-05-12T16:12:31 IST" duration-ms="23851">
+      <class name="Testmethod.AppleMac_module">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Testmethod.AppleMac_module@2e8c1c9b]" started-at="2023-05-12T16:11:58 IST" name="Launch" finished-at="2023-05-12T16:12:07 IST" duration-ms="8353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Mac()[pri:1, instance:Testmethod.AppleMac_module@2e8c1c9b]" started-at="2023-05-12T16:12:07 IST" name="Mac" finished-at="2023-05-12T16:12:10 IST" duration-ms="3337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mac -->
+        <test-method signature="MacPro()[pri:2, instance:Testmethod.AppleMac_module@2e8c1c9b]" started-at="2023-05-12T16:12:10 IST" name="MacPro" finished-at="2023-05-12T16:12:13 IST" duration-ms="2726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MacPro -->
+        <test-method signature="Mac_pro()[pri:3, instance:Testmethod.AppleMac_module@2e8c1c9b]" started-at="2023-05-12T16:12:13 IST" name="Mac_pro" finished-at="2023-05-12T16:12:16 IST" duration-ms="2840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mac_pro -->
+        <test-method signature="Heading_pro()[pri:4, instance:Testmethod.AppleMac_module@2e8c1c9b]" started-at="2023-05-12T16:12:16 IST" name="Heading_pro" finished-at="2023-05-12T16:12:16 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Heading_pro -->
+        <test-method signature="Movemaker_text()[pri:5, instance:Testmethod.AppleMac_module@2e8c1c9b]" started-at="2023-05-12T16:12:16 IST" name="Movemaker_text" finished-at="2023-05-12T16:12:16 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Movemaker_text -->
+        <test-method signature="Watch_announcemnet()[pri:6, instance:Testmethod.AppleMac_module@2e8c1c9b]" started-at="2023-05-12T16:12:16 IST" name="Watch_announcemnet" finished-at="2023-05-12T16:12:21 IST" duration-ms="5160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Watch_announcemnet -->
+        <test-method signature="Pause()[pri:7, instance:Testmethod.AppleMac_module@2e8c1c9b]" started-at="2023-05-12T16:12:21 IST" name="Pause" finished-at="2023-05-12T16:12:23 IST" duration-ms="2069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pause -->
+        <test-method signature="Sub_title()[pri:9, instance:Testmethod.AppleMac_module@2e8c1c9b]" started-at="2023-05-12T16:12:23 IST" name="Sub_title" finished-at="2023-05-12T16:12:23 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sub_title -->
+        <test-method signature="Sub_titlel()[pri:10, instance:Testmethod.AppleMac_module@2e8c1c9b]" started-at="2023-05-12T16:12:23 IST" name="Sub_titlel" finished-at="2023-05-12T16:12:23 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sub_titlel -->
+        <test-method signature="Slider()[pri:11, instance:Testmethod.AppleMac_module@2e8c1c9b]" started-at="2023-05-12T16:12:23 IST" name="Slider" finished-at="2023-05-12T16:12:25 IST" duration-ms="2045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Slider -->
+        <test-method signature="FullScreen()[pri:12, instance:Testmethod.AppleMac_module@2e8c1c9b]" started-at="2023-05-12T16:12:25 IST" name="FullScreen" finished-at="2023-05-12T16:12:26 IST" duration-ms="1074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FullScreen -->
+        <test-method signature="ExitScreen()[pri:13, instance:Testmethod.AppleMac_module@2e8c1c9b]" started-at="2023-05-12T16:12:26 IST" name="ExitScreen" finished-at="2023-05-12T16:12:27 IST" duration-ms="1108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExitScreen -->
+        <test-method signature="Mac_14()[pri:14, instance:Testmethod.AppleMac_module@2e8c1c9b]" started-at="2023-05-12T16:12:27 IST" name="Mac_14" finished-at="2023-05-12T16:12:29 IST" duration-ms="1891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mac_14 -->
+        <test-method signature="Go_insideM2pro()[pri:15, instance:Testmethod.AppleMac_module@2e8c1c9b]" started-at="2023-05-12T16:12:29 IST" name="Go_insideM2pro" finished-at="2023-05-12T16:12:30 IST" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Go_insideM2pro -->
+        <test-method signature="New_chips()[pri:16, instance:Testmethod.AppleMac_module@2e8c1c9b]" started-at="2023-05-12T16:12:30 IST" name="New_chips" finished-at="2023-05-12T16:12:31 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- New_chips -->
+        <test-method signature="Better_better()[pri:17, instance:Testmethod.AppleMac_module@2e8c1c9b]" started-at="2023-05-12T16:12:31 IST" name="Better_better" finished-at="2023-05-12T16:12:31 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Better_better -->
+        <test-method signature="Keeps_going()[pri:18, instance:Testmethod.AppleMac_module@2e8c1c9b]" started-at="2023-05-12T16:12:31 IST" name="Keeps_going" finished-at="2023-05-12T16:12:31 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Keeps_going -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testmethod.AppleMac_module@2e8c1c9b]" started-at="2023-05-12T16:12:31 IST" name="close" finished-at="2023-05-12T16:12:31 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Testmethod.AppleMac_module -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

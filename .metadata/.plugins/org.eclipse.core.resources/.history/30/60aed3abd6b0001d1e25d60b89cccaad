@@ -1,0 +1,32 @@
+package assignemnt3;
+import java.util.Scanner;
+
+public class tryS {
+	
+	 public static void main(String []args)
+	 {
+		 int age;
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("enter the age");
+		 age=sc.nextInt();
+		 try
+	 
+	 
+		 {
+			 if(age<18)
+			 {
+				 System.out.println("adult can vote ");
+			 }
+			 else
+			 {
+				 System.out.println("adult cant vote ");
+			 }
+			 
+		 }
+		 catch(Exception e)
+		 {
+			 System.out.println("exception throw");
+		 }
+			
+		 }
+	 }

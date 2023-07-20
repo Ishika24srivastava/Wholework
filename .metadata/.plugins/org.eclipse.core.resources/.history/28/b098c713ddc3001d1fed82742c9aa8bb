@@ -1,0 +1,5 @@
+package assignment19;
+
+public class Member {
+	publicclassMember {protectedStringname;protectedintage;protectedintphoneNo;protectedStringaddress;protectedintsalary;publicvoidprintSalary() {System.out.println(salary);}}publicclassEmployeeextendsMember {Stringspecialization;Employee(Stringname,intage,intphoneNo, Stringaddress,intsalary){this.name=name;this.age=age;this.phoneNo=phoneNo;this.address=address;this.salary=salary;
+}

@@ -1,0 +1,25 @@
+package test;
+import java.util.Scanner;
+
+public class sAttendence {
+	
+			public static void main(String[]args) {
+				Scanner sc=new Scanner(System.in);
+				System.out.println("Number of classes held= ");
+				int x=sc.nextInt();
+				System.out.println("Number of classes attended= ");
+				int y=sc.nextInt();
+				float per=y/x;
+				if(per>=75)
+				{
+					System.out.println("Student can elgible to sit in exam");
+				}
+				else
+				{
+					System.out.println("Student is not elgible to sit in exam");
+				}
+				
+			
+		
+	}
+}

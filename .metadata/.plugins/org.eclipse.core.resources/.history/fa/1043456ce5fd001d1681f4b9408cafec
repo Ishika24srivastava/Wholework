@@ -1,0 +1,73 @@
+package Test_method;
+
+import java.io.IOException;
+
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+import Test_base.Justdial_base;
+import Test_page.Justdial_page;
+
+
+public class Justdial_homepage extends Justdial_base{
+	
+	Justdial_page justdail_homepage;
+	
+	@BeforeSuite
+	public void Launch() throws IOException, InterruptedException
+	{
+		intilization();
+		justdail_homepage=new Justdial_page();
+	}
+	
+	@Test(priority=1)
+	public void Logo()
+	{
+		justdail_homepage.Logo();
+	}
+	
+	@Test(priority=2,enabled=false)
+	public void Location() throws InterruptedException
+	{
+		justdail_homepage.Location();
+	}
+	
+	@Test(priority=3,enabled=false)
+	public void Detect_Location() throws InterruptedException
+	{
+		justdail_homepage.Detect_Location();
+	}
+	
+	@Test(priority=4,enabled=false)
+	public void English() throws InterruptedException
+	{
+		justdail_homepage.Language();
+	}
+	
+	@Test(priority=5)
+	public void Wearehiring() throws InterruptedException
+	{
+		justdail_homepage.Wearehiring();
+	}
+	
+	@Test(priority=6)
+	public void Investorrelations() throws InterruptedException
+	{
+		justdail_homepage.Investorrelations();
+	}
+	
+	@Test(priority=7)
+	public void Advertise() throws InterruptedException
+	{
+		justdail_homepage.Advertise();
+	}
+	
+	@Test(priority=8)
+	public void Freelistening() throws InterruptedException
+	{
+		justdail_homepage.Freelistening();
+	}
+	
+	
+
+}

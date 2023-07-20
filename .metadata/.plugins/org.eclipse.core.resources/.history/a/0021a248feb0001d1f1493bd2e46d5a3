@@ -1,0 +1,18 @@
+package assignment4;
+import java.util.*;
+
+public class ll {
+	public static void main(String[]args)
+	{
+		LinkedList<String> ll=new LinkedList<String>();
+		l1.add("H");
+		l1.add("G");
+		l1.add("R");
+		l1.add("y");
+		System.out.println("Linkedlist= "+l1)
+				
+		
+		
+	}
+
+}

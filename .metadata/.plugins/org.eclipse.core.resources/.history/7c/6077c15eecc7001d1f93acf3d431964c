@@ -1,0 +1,22 @@
+package assignment21;
+
+public class LastString {
+	  
+	public static void main(String[] args)   
+	{  
+	 
+	LastString rlc = new LastString();  
+	String string="ISHIKA SRIVASTAVA";  
+	//method calling  
+	string=rlc.removeLastChar(string);        
+	//prints the string   
+	System.out.println(string);  
+	}  
+	//method to remove last character  
+	private String removeLastChar(String s)   
+	{  
+	//returns the string after removing the last character  
+	return s.substring(0, s.length() - 1);  
+	}   
+	} 
+

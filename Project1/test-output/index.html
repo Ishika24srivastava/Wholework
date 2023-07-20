@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\isrivastava\AppData\Local\Temp\testng-eclipse-524283319\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testmethod.AppleMac_module" class="method navigator-link" hash-for-method="Better_better">Better_better</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testmethod.AppleMac_module" class="method navigator-link" hash-for-method="ExitScreen">ExitScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testmethod.AppleMac_module" class="method navigator-link" hash-for-method="FullScreen">FullScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testmethod.AppleMac_module" class="method navigator-link" hash-for-method="Go_insideM2pro">Go_insideM2pro</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testmethod.AppleMac_module" class="method navigator-link" hash-for-method="Heading_pro">Heading_pro</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testmethod.AppleMac_module" class="method navigator-link" hash-for-method="Keeps_going">Keeps_going</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testmethod.AppleMac_module" class="method navigator-link" hash-for-method="Mac">Mac</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testmethod.AppleMac_module" class="method navigator-link" hash-for-method="MacPro">MacPro</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testmethod.AppleMac_module" class="method navigator-link" hash-for-method="Mac_14">Mac_14</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testmethod.AppleMac_module" class="method navigator-link" hash-for-method="Mac_pro">Mac_pro</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testmethod.AppleMac_module" class="method navigator-link" hash-for-method="Movemaker_text">Movemaker_text</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testmethod.AppleMac_module" class="method navigator-link" hash-for-method="New_chips">New_chips</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testmethod.AppleMac_module" class="method navigator-link" hash-for-method="Pause">Pause</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testmethod.AppleMac_module" class="method navigator-link" hash-for-method="Slider">Slider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testmethod.AppleMac_module" class="method navigator-link" hash-for-method="Sub_title">Sub_title</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testmethod.AppleMac_module" class="method navigator-link" hash-for-method="Sub_titlel">Sub_titlel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testmethod.AppleMac_module" class="method navigator-link" hash-for-method="Watch_announcemnet">Watch_announcemnet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testmethod.AppleMac_module</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Better_better">
+                  </a> <!-- Better_better -->
+                  <span class="method-name">Better_better</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExitScreen">
+                  </a> <!-- ExitScreen -->
+                  <span class="method-name">ExitScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FullScreen">
+                  </a> <!-- FullScreen -->
+                  <span class="method-name">FullScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Go_insideM2pro">
+                  </a> <!-- Go_insideM2pro -->
+                  <span class="method-name">Go_insideM2pro</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading_pro">
+                  </a> <!-- Heading_pro -->
+                  <span class="method-name">Heading_pro</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Keeps_going">
+                  </a> <!-- Keeps_going -->
+                  <span class="method-name">Keeps_going</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Mac">
+                  </a> <!-- Mac -->
+                  <span class="method-name">Mac</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MacPro">
+                  </a> <!-- MacPro -->
+                  <span class="method-name">MacPro</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Mac_14">
+                  </a> <!-- Mac_14 -->
+                  <span class="method-name">Mac_14</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Mac_pro">
+                  </a> <!-- Mac_pro -->
+                  <span class="method-name">Mac_pro</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Movemaker_text">
+                  </a> <!-- Movemaker_text -->
+                  <span class="method-name">Movemaker_text</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="New_chips">
+                  </a> <!-- New_chips -->
+                  <span class="method-name">New_chips</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Pause">
+                  </a> <!-- Pause -->
+                  <span class="method-name">Pause</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Slider">
+                  </a> <!-- Slider -->
+                  <span class="method-name">Slider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Sub_title">
+                  </a> <!-- Sub_title -->
+                  <span class="method-name">Sub_title</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Sub_titlel">
+                  </a> <!-- Sub_titlel -->
+                  <span class="method-name">Sub_titlel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Watch_announcemnet">
+                  </a> <!-- Watch_announcemnet -->
+                  <span class="method-name">Watch_announcemnet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\isrivastava\AppData\Local\Temp\testng-eclipse-524283319\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Testmethod.AppleMac_module&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Watch_announcemnet')
+data.setCell(0, 2, 'Testmethod.AppleMac_module')
+data.setCell(0, 3, 5160);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Mac')
+data.setCell(1, 2, 'Testmethod.AppleMac_module')
+data.setCell(1, 3, 3337);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Mac_pro')
+data.setCell(2, 2, 'Testmethod.AppleMac_module')
+data.setCell(2, 3, 2840);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'MacPro')
+data.setCell(3, 2, 'Testmethod.AppleMac_module')
+data.setCell(3, 3, 2726);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Pause')
+data.setCell(4, 2, 'Testmethod.AppleMac_module')
+data.setCell(4, 3, 2069);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Slider')
+data.setCell(5, 2, 'Testmethod.AppleMac_module')
+data.setCell(5, 3, 2045);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Mac_14')
+data.setCell(6, 2, 'Testmethod.AppleMac_module')
+data.setCell(6, 3, 1891);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Go_insideM2pro')
+data.setCell(7, 2, 'Testmethod.AppleMac_module')
+data.setCell(7, 3, 1113);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ExitScreen')
+data.setCell(8, 2, 'Testmethod.AppleMac_module')
+data.setCell(8, 3, 1108);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'FullScreen')
+data.setCell(9, 2, 'Testmethod.AppleMac_module')
+data.setCell(9, 3, 1074);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Sub_titlel')
+data.setCell(10, 2, 'Testmethod.AppleMac_module')
+data.setCell(10, 3, 81);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Sub_title')
+data.setCell(11, 2, 'Testmethod.AppleMac_module')
+data.setCell(11, 3, 80);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Keeps_going')
+data.setCell(12, 2, 'Testmethod.AppleMac_module')
+data.setCell(12, 3, 60);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Heading_pro')
+data.setCell(13, 2, 'Testmethod.AppleMac_module')
+data.setCell(13, 3, 47);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Movemaker_text')
+data.setCell(14, 2, 'Testmethod.AppleMac_module')
+data.setCell(14, 3, 44);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'New_chips')
+data.setCell(15, 2, 'Testmethod.AppleMac_module')
+data.setCell(15, 3, 37);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Better_better')
+data.setCell(16, 2, 'Testmethod.AppleMac_module')
+data.setCell(16, 3, 36);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Testmethod.AppleMac_module</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Volume</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testmethod.AppleMac_module</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">Mac</span>
+                <span class="method-start">8408 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MacPro</span>
+                <span class="method-start">11752 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Mac_pro</span>
+                <span class="method-start">14481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Heading_pro</span>
+                <span class="method-start">17323 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Movemaker_text</span>
+                <span class="method-start">17373 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Watch_announcemnet</span>
+                <span class="method-start">17420 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Pause</span>
+                <span class="method-start">22583 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Sub_title</span>
+                <span class="method-start">24655 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Sub_titlel</span>
+                <span class="method-start">24738 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Slider</span>
+                <span class="method-start">24821 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FullScreen</span>
+                <span class="method-start">26867 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ExitScreen</span>
+                <span class="method-start">27945 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Mac_14</span>
+                <span class="method-start">29056 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Go_insideM2pro</span>
+                <span class="method-start">30949 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">New_chips</span>
+                <span class="method-start">32065 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Better_better</span>
+                <span class="method-start">32104 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Keeps_going</span>
+                <span class="method-start">32143 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">close</span>
+                <span class="method-start">32253 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,25 @@
+package assignment4;
+import java.util.*;
+
+public class unique {
+	
+		public static void main()
+		{
+			List<String> l2=new ArrayList<String>();
+			l2.add("DELHI");
+			l2.add("MUMBAI");
+			l2.add("NOIDA");
+			l2.add("CHANDIGARH");
+			System.out.println(l2);
+
+			l2.add(4,"GOA");
+			l2.add(2,"dehradun");
+			System.out.println(l2);
+			
+			
+		}
+
+	}
+
+
+
